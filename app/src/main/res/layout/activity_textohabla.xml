@@ -4,21 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".TextohablaActivity">
 
-    <EditText
-        android:id="@+id/editTextoLetra"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
         android:layout_weight="5"
-        android:ems="10"
-        android:hint="Escribe un texto"
-        android:inputType="text" />
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextoLetra"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Escribe un texto"
+            android:inputType="text" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnHabla"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="convertir a audio" />
+        android:text="Convertir a audio" />
 </LinearLayout>

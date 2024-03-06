@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".AccederActivity">
 
     <ImageView
@@ -18,7 +20,7 @@
         android:id="@+id/btnTxtVoz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+
         android:text="Texto a Voz" />
 
     <Button
@@ -27,5 +29,5 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Salir" />
 </LinearLayout>
