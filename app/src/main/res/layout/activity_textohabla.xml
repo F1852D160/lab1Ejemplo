@@ -23,6 +23,13 @@
             android:ems="10"
             android:hint="Escribe un texto"
             android:inputType="text" />
+
+        <TextView
+            android:id="@+id/txtNroLetras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="textEnd" />
     </LinearLayout>
 
     <Button

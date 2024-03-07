@@ -17,7 +17,8 @@ class AccederActivity : AppCompatActivity() {
 
         val btnSalir = findViewById<Button>(R.id.btnSalir)
         btnSalir.setOnClickListener {
-            finishAffinity()
+            finish();
+            System.exit(0);
         }
     }
 }
