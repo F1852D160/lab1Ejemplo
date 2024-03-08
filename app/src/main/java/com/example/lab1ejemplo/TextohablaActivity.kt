@@ -64,6 +64,9 @@ class TextohablaActivity : AppCompatActivity() , TextToSpeech.OnInitListener {
         txtSpeach = TextToSpeech(this,this)
 
 
+
+
+
         val btnHabla = findViewById<Button>(R.id.btnHabla)
         btnHabla.setOnClickListener {
             Toast.makeText(this@TextohablaActivity,"Click en el boton", Toast.LENGTH_SHORT).show()
